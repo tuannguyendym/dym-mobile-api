@@ -2,8 +2,9 @@
   "name": "dym-mobile-api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "DYM Post for Mobile API",
   "scripts": {
+    "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
@@ -11,9 +12,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.9.1",
-    "@strapi/plugin-users-permissions": "4.9.1",
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.9.1",
+    "@strapi/strapi": "4.9.1",
     "pg": "8.8.0"
   },
   "author": {
